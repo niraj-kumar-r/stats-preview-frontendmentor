@@ -41,7 +41,7 @@ body {
 
 .happy-customer-picture-container{
   position: relative;
-  margin: 0rem auto 1rem;
+  margin: 0rem auto 2rem;
 }
 
 .happy-customer-picture{
@@ -67,13 +67,24 @@ body {
 }
 h1{
   color: var(--main-heading-and-stats-color);
+  font-weight: 700;
   font-size: 1.8rem;
   text-align: center;
   width: 10.2em;
+  margin: 0em;
   /* background-color: red; */
 }
 
 .heading-insight-accent{
   display: inline;
   color: var(--accent-color);
+}
+
+.description{
+  color: var(--para-color);
+  /* background-color: red; */
+  text-align: center;
+  font-weight: 400;
+  width: 17em;
+  line-height: 1.75em;
 }
