@@ -18,6 +18,14 @@
     --stat-heading-color: hsla(0, 0%, 100%, 0.6);
     /* slightly more transparent white */
 
-    font-size: 15px;
+}
 
+body{
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    /*  font-family: 'Lexend Deca', sans-serif; */
+}
+
+.main-card{
+    
 }
