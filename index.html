@@ -7,9 +7,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Niraj Kumar | Frontend Mentor | Stats preview card component</title>
-
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
+  <style> 
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
@@ -25,20 +24,33 @@
 </head>
 <body>
 
-  <div class="main-card">
-
-    <img src="images/image-header-mobile.jpg" alt="pic of a happy business owner who beniffeted from the insights gained">
-
+  <main class="main-card">
     
-    Get insights that help your business grow.
+    <div class="happy-customer-picture-container">
+      <picture>
+        <source media="(max-width: 400px)" srcset="images/image-header-mobile.jpg">
+        <img src="images/image-header-desktop.jpg" alt="a happy business owner benifiting from the insights gained" class="happy-customer-picture">
+      </picture>
+      <!-- picture element loads only what is required instead of loading everything and hiding it-->
+    </div>
+    
+    <h1>
+      Get 
+      <div class="heading-insight-accent">
+        insights
+      </div>
+      that help your business grow.
+    </h1>  
 
-    Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-    experience, and overall efficiency.
+    <p>
+      Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+      experience, and overall efficiency.
+    </p>
     
     10k+ companies
     314 templates
     12m+ queries
-  </div>
+  </main>
     
   <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
