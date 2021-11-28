@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Checkout my solution at Frontendmentor](https://www.frontendmentor.io/solutions/first-responsive-site-by-newbie-using-flex-and-media-queries-et_U6Z9wj)
 - Live Site URL: [niraj-stats-preview-card](https://niraj-stats-preview-card.netlify.app/)
 
 ## My process
