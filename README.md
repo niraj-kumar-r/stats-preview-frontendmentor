@@ -26,10 +26,10 @@ Users should be able to:
 
 ### Screenshot
 
-Finished Mobile Site screenshot
-![](design/my-finished-mobile-screenshot.png)
-![](design/my-Finished-desktop-screenshot.jpg)
-Finished Desktop Site Screenshot
+
+![Finished Mobile Site screenshot](design/my-finished-mobile-screenshot.png)
+![Finished Desktop Site Screenshot](design/my-Finished-desktop-screenshot.jpg)
+
 
 ### Links
 
