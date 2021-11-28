@@ -65,6 +65,12 @@ body {
 
 
 }
+.info-card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 h1{
   color: var(--main-heading-and-stats-color);
   font-weight: 700;
@@ -87,4 +93,37 @@ h1{
   font-weight: 400;
   width: 17em;
   line-height: 1.75em;
+  text-align: center;
+}
+
+.stats-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1em;
+}
+
+.stats-individual-info-card{
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.stats-number{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--main-heading-and-stats-color);
+  margin-bottom: 0.25em;
+
+}
+
+.stats-object{
+  font-size: 0.8rem;
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--stat-heading-color);
+  font-weight: 100;
+  text-transform: uppercase;
+
 }
