@@ -47,7 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-- I learnt how to show completely different images, depending upon the device width, using the ![picture tag](https://stackoverflow.com/a/50375128).
+- I learnt how to show completely different images, depending upon the device width, using the [picture tag](https://stackoverflow.com/a/50375128).
 
 ```css
 <h1>Resize Window</h1>
@@ -59,28 +59,11 @@ Users should be able to:
   <img src="https://via.placeholder.com/400" alt="example"/>
 </picture>
 ```
-- 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- I learnt that a little gap between an img tag and its div container is the intended behaviour, and if we don't want that gap we have to use [diplay: block](https://stackoverflow.com/questions/5804256/image-inside-div-has-extra-space-below-the-image) 
 
-To see how you can add code snippets, see below:
+- I learnt about [text transforms](https://www.w3schools.com/cssref/pr_text_text-transform.asp) and its use cases.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+- I also practically experienced how working with a mobile-first workflow, can make responsive websites easier to make. Since the mobile site is simpler most of the times, I first coded that, and then added complexity on top of that to make the desktop site. 
 
 ### Useful resources
 
