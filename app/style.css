@@ -125,4 +125,77 @@ h1{
   color: var(--stat-heading-color);
   font-weight: 100;
   text-transform: uppercase;
+
+}
+
+@media (min-width: 57rem) {
+  .main-card{
+    width: clamp(57rem, 77.152vw, 68rem);
+    /* for 1440p it is 1110.9888 px */
+    padding: 0;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .happy-customer-picture-container{
+    width: 50%;
+    margin: 0;
+  }
+
+  .happy-customer-picture{
+    width: 100%;
+    border-radius: 0rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  .happy-customer-picture-container::after{
+    width: 100%;
+    border-radius: 0rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  .info-card{
+    /* background-color: blue; */
+    width: 50%;
+    /* for 1440p it will be 555.4944 */
+
+    justify-content: space-evenly;
+
+    
+    align-items: flex-start;
+    padding-left: 4.6em;
+  }
+
+  h1{
+    text-align: left;
+    /* background-color: blueviolet; */
+    font-size: 2rem;
+    width: 11em;
+  }
+
+  .description{
+    font-size: 0.9375rem;
+    /* background-color: darkgoldenrod; */
+    text-align: left;
+    width: 25em;
+  }
+
+  .stats-card{
+    width: 75%;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: red; */
+    padding: 0;
+  }
+
+  .stats-individual-info-card{
+    margin: 0;
+    /* background-color: darkgreen; */
+    align-items: flex-start;
+  }
+
+  
 }
