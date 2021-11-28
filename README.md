@@ -47,6 +47,19 @@ Users should be able to:
 
 ### What I learned
 
+- I learnt how to show completely different images, depending upon the device width, using the ![picture tag](https://stackoverflow.com/a/50375128).
+
+```css
+<h1>Resize Window</h1>
+<picture>
+  <source srcset="https://via.placeholder.com/1400" media="(min-width: 1400px)"/>
+  <source srcset="https://via.placeholder.com/1200" media="(min-width: 1200px)"/>
+  <source srcset="https://via.placeholder.com/800" media="(min-width: 800px)"/>
+  <source srcset="https://via.placeholder.com/600" media="(min-width: 600px)"/>
+  <img src="https://via.placeholder.com/400" alt="example"/>
+</picture>
+```
+- 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 To see how you can add code snippets, see below:
@@ -71,7 +84,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Useful resources
 
-- [Stackoverflow](https://stackoverflow.com/) - This really helped me. It has become my go to place for any problem I face, I just google it and this is always the first result and more often than not, it is pretty accurate too, since, someone outthere faced the same problem as me and has already asked it here most of the times.
+- [Stackoverflow](https://stackoverflow.com/) - This really helped me. It has become my go to place for any problem I face, I just google it and this is always the first result and more often than not, it is pretty accurate too, since, someone out there faced the same problem as me and has already asked it here most of the times.
 
 - [W3 schools](https://www.w3schools.com/) - This is an amazing site, which has pretty good explainations, with proper syntax, on most css properties.
 
