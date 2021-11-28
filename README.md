@@ -11,10 +11,8 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 
@@ -28,8 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](design/my-finished-mobile-screenshot.png)
 Finished Mobile Site screenshot
+![](design/my-finished-mobile-screenshot.png)
 ![](design/my-Finished-desktop-screenshot.jpg)
 Finished Desktop Site Screenshot
 
@@ -71,27 +69,16 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 **Note: Delete this note and the content within this section and replace with your own learnings.**
 
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Stackoverflow](https://stackoverflow.com/) - This really helped me. It has become my go to place for any problem I face, I just google it and this is always the first result and more often than not, it is pretty accurate too, since, someone outthere faced the same problem as me and has already asked it here most of the times.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [W3 schools](https://www.w3schools.com/) - This is an amazing site, which has pretty good explainations, with proper syntax, on most css properties.
+
+- [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS) - This is the end, all be all of CSS, if you can't find find it here, you haven't looked properly😜.
 
 ## Author
 
 <!-- - Website - [Add your name here](https://www.your-site.com) -->
 - Frontend Mentor - [@niraj-kumar-r](https://www.frontendmentor.io/profile/niraj-kumar-r)
 - Twitter - [@niraj_kumar_r](https://twitter.com/niraj_kumar_r)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
